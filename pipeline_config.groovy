@@ -5,5 +5,5 @@ application_environments{
 }
 
 libraries{
-  merge = true 
+  maven
 }
