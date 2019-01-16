@@ -6,4 +6,5 @@ application_environments{
 
 libraries{
   maven
+  splunk
 }
