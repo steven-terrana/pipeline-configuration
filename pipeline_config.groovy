@@ -5,5 +5,5 @@ application_environments{
 }
 
 libraries{
-  ant 
+  merge = true 
 }
