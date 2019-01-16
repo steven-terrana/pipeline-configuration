@@ -3,3 +3,7 @@ application_environments{
     long_name = "Development" 
   }
 }
+
+libraries{
+  maven 
+}
