@@ -5,6 +5,8 @@ application_environments{
 }
 
 libraries{
-  maven
+  maven{
+    banana = 6  
+  }
   splunk
 }
