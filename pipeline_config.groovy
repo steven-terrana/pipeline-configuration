@@ -8,6 +8,7 @@ libraries{
   maven{
     banana = "hey" 
     x = "option3" 
+    notNeeded = true 
   }
   splunk
 }
