@@ -6,7 +6,8 @@ application_environments{
 
 libraries{
   maven{
-    banana = 6  
+    banana = "hey" 
+    x = "option3" 
   }
   splunk
 }
