@@ -6,7 +6,7 @@ application_environments{
 
 libraries{
   maven{
-    banana = "hey" 
+    banana = 4
     x = "option3" 
     notNeeded = true 
   }
