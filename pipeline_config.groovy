@@ -4,6 +4,12 @@ application_environments{
   }
 }
 
+stages{
+  someStage{
+    build
+  }
+}
+
 libraries{
   maven{
     banana = 4
