@@ -11,11 +11,11 @@ stages{
 }
 
 libraries{
+  sonarqube
   maven{
     banana = 4
     x = "option3" 
     notNeeded = true 
   }
   splunk
-  slack
 }
