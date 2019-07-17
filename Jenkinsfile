@@ -4,6 +4,10 @@ println "dev environment obj -> ${dev}"
 
 build()
 
+someStep.doThing()
+
+someStage()
+
 
 println "------------------"
 println "printing a keyword"
