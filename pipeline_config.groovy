@@ -17,4 +17,5 @@ libraries{
     notNeeded = true 
   }
   splunk
+  slack
 }
