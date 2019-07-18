@@ -11,7 +11,6 @@ stages{
 }
 
 libraries{
-  sonarqube
   maven{
     banana = 4
     x = "option3" 
