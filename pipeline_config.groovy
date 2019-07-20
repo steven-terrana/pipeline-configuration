@@ -100,7 +100,7 @@ libraries{
     merge = true
   }
   scheduled_builds{
-    branches = ['develop', 'jenkins-scm-test']
+    branches = ["develop", "jenkins-scm-test"]
     cron_exp = 'H/5 * * * *'
     commit_window = 330
   }
