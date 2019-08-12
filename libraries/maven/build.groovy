@@ -1,3 +1,5 @@
 def call(){ 
-    println "build step from the maven library" 
+    stage("Maven - Build"){
+        println "build step from the maven library" 
+    }
 }
