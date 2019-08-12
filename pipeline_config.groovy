@@ -7,6 +7,8 @@ application_environments{
 libraries{
   merge = true 
   sonarqube
-  ansible
+  ansible{
+    customMessage = "Hey from CDF Contributor Summit" 
+  }
 }
 
