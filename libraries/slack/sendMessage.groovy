@@ -1,4 +1,4 @@
 @AfterStep
-void call(){
-    println "sending a slack notification"
+void call(context){
+    println "sending a slack notification after the ${context.step} step"
 }
