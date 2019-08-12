@@ -4,14 +4,8 @@ application_environments{
   }
 }
 
-stages{
-  merge = true 
-  someStage{
-    build
-  }
-}
-
 libraries{
-  maven
+  merge = true 
+  sonarqube
 }
 
