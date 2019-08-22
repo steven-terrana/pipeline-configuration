@@ -1,4 +1,4 @@
-@AfterStep({ throw new Exception("whatever") })
+@AfterStep({ context.step in config.afterSteps })
 void call(context){
     println "sending a slack notification after the ${context.step} step"
 }
