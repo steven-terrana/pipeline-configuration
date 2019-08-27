@@ -1,4 +1,4 @@
-@AfterStep({ context.step in config.afterSteps })
-void call(context){
+@AfterStep
+def call(){
     println "sending a slack notification after the ${context.step} step"
 }
