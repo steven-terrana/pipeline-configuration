@@ -1,5 +1,5 @@
 @AfterStep({ 
-    println """
+    steps.println """
     context -> ${context}
     config -> ${config}
     """
