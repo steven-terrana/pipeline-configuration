@@ -1,8 +1,10 @@
+import org.boozallen.plugins.jte.console.TemplateLogger
 @AfterStep({ 
-    steps.println """
+    TemplateLogger.print """
     context -> ${context}
     config -> ${config}
     """
+    
     !context.step && config.email_on_complete == true 
 })
 def call(context){
