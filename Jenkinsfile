@@ -1,3 +1,2 @@
-build()
-static_code_analysis()
-deploy_to dev 
+println 'hi from develop'
+println pipelineConfig
